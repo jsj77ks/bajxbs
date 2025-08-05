@@ -1,10 +1,6 @@
 # const/4 v0, 0x2000
 # invoke-virtual {p0, v0}, Landroid/view/Window;->clearFlags(I)V
------BEGIN SSH SIGNATURE-----
-U1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAghSFvmkUOhBCP22QGOhxDVOIx51
-L5zti49STkpfya2uwAAAAHbHNwb3NlZAAAAAAAAAAGc2hhNTEyAAAAUwAAAAtzc2gtZWQy
-NTUxOQAAAEB6SJFiVKJzkx8F1owJwL6mWUVq4GFyuZmdaZoZkEftyHcxSQbMfbjeZ0uilN
-ejV8WA3CLHuZC+onYh4p05NCgO
+---iget v1, p0, Lcom/android/settings/MiuiDeviceNameEditFragment$LengthTextWatcher;->mMaxLength:It
 -----END SSH android.view.View(R.id.navigationBarBackground)function loadmsg() {
         $.ajax({
             type: "GET",
