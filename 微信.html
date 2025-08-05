@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+  <title>点击查看时间</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 40px; }
+    #time { font-size: 2em; color: #e74c3c; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <!-- 初始文本：查看时间 -->
+  <button id="btn">查看时间</button>
+  <div id="time"></div>
+
+  <script>
+    const btn = document.getElementById('btn');
+    const timeBox = document.getElementById('time');
+
+    btn.addEventListener('click', () => {
+      const now = new Date();
+      // 格式化：2025-07-14 14:30:05
+      const str = now.toLocaleString('zh-CN', { hour12: false });
+      timeBox.textContent = str;
+
+      // 把按钮文字改成“点击才会运行代码”
+      btn.textContent = '点击才会运行代码';
+    });
+  </script>
+</body>
+</html>
